@@ -179,11 +179,7 @@ export class ProgressCircle extends Component {
             }}
           >
             <View
-              style={[{
-                color,
-                fontSize: textSize / 4.5,
-                fontWeight: '300',
-              }, textStyle]}
+              style={[textStyle]}
             >
               {formatText(progressValue)}
             </View>
