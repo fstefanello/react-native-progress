@@ -180,7 +180,7 @@ export class ProgressCircle extends Component {
           >
             <View
               style={[textStyle]}
-            >
+                >
               {formatText(progressValue)}
             </View>
           </View>
